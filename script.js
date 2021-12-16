@@ -6,7 +6,7 @@
 
  function sumFive(arr) {
     var sum = 0;
-    for (i = 0; i < arr.length; i++){
+    for (var i = 0; i < arr.length; i++){
         if (arr[i] > 5){
             sum += arr[i]
         }
@@ -59,7 +59,7 @@
 
 function numbersSum(arr){
     var sum = 0;
-    for (i = 0; i < arr.length; i++){
+    for (var i = 0; i < arr.length; i++){
         if (typeof arr[i] == 'number'){
             sum += arr[i]
         } 
@@ -88,7 +88,7 @@ function keysAndValues(obj){
 
     arrSub1.sort();
 
-    for (i = 0; i < arrSub1.length; i++){
+    for (var i = 0; i < arrSub1.length; i++){
         arrSub2.push(obj[arrSub1[i]]);
     }
 
